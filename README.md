@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## ERP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introduction
 
-## Available Scripts
+This README document provides detailed instructions for setting up and using the front-end application. The application is built using React.js and is designed to provide functionality for managing products, orders, and status tracking.
 
-In the project directory, you can run:
+# Requirements
 
-### `npm start`
+Node.js (version 12 or above)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm (Node Package Manager)
+## Packages 
+- npm install
+- npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Using the Application
 
-### `npm test`
+# Dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upon accessing the application, you will land on the dashboard page, where you can get an overview of various metrics and statistics related to your products and orders.
 
-### `npm run build`
+![](<Screenshot 2024-03-14 144028.png>)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Products
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Navigate to the "Products" section from the sidebar to manage your products.
+- Here, you can view, add, edit, or delete products as needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](<Screenshot 2024-03-14 144335.png>)
 
-### `npm run eject`
+# Edit Products
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- To edit a product, navigate to the "Products" section and click on the "Edit" button corresponding to the product you wish to modify.
+- Update the necessary fields and click on the "Save" button to apply the changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](<Screenshot 2024-03-14 144408.png>)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Orders
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- The "Orders" section allows you to manage your orders.
+- View the list of orders, their status, and other relevant details.
+- You can also create new orders or edit existing ones.
 
-## Learn More
+![](<Screenshot 2024-03-14 144452.png>)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Status Edit
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- In the "Orders" section, you can edit the status of orders.
+- Click on the "Edit" button next to the order whose status you wish to modify.
+- Update the status field and save the changes.
 
-### Code Splitting
+![](<Screenshot 2024-03-14 144606.png>)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Calendar View
 
-### Analyzing the Bundle Size
+- Navigate to the "Calendar" section from the sidebar to view orders in a calendar format.
+- Here, you can see a visual representation of order dates and statuses.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](<Screenshot 2024-03-14 144642.png>)
